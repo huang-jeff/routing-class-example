@@ -35,8 +35,8 @@ First, implement two routes, one route for the root landing page, and the second
 ```javascript
 <Router>
   <Switch>
-    <Route path='/' component={Home} />
     <Route path='/about' component={About} />
+    <Route path='/' component={Home} />
   </Switch>
 </Router>
 ```
